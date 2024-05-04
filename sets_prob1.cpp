@@ -19,7 +19,7 @@ int main()
         s.insert(str);
     }
     cout<< "Unique Set of Strings" <<endl;
-    for(auto val: s)
+    for(auto &val: s)
         cout << val <<endl;
 
     return 0;
